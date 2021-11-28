@@ -24,7 +24,9 @@
     <div class="container">
       <form id="movie-form">
         <div class="form-group">
-          <label for="movie" class="mb-1 form-control-lg"> Movie </label>
+          <label for="movie" class="mb-1 form-control-lg">
+            Search A Movie
+          </label>
 
           <input
             type="text"
@@ -35,19 +37,14 @@
           <input
             type="submit"
             class="btn btn-success btn-lg btn-block mt-3 w-100"
-            value="Find"
+            value="find"
           />
         </div>
-        <div
-          class="form-group mt-3"
-          style="margin-bottom: 2%"
-          id="dangerdiv"
-        ></div>
-        <div style="margin-bottom: 2%" id="alertDangerDiv"></div>
+        <div class="form-group mt-3" id="dangerdiv"></div>
       </form>
       <div class="results"></div>
     </div>
 
-    <script src="./js/main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
